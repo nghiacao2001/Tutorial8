@@ -3,3 +3,13 @@ title: "Group BB"
 format: html
 editor: visual
 ---
+
+```{r}
+library(tidyverse)
+```
+
+```{r}
+data <- read_csv("Data_Tables_Criminal_Incidents_Visualisation_Year_Ending_December_2019.csv")
+
+data_2 <- select(data, 1)
+```
